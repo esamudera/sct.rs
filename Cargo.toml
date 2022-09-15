@@ -12,5 +12,5 @@ categories = ["network-programming", "cryptography"]
 exclude = ["/admin/"]
 
 [dependencies]
-ring = "0.16.20"
+ring = { git = "https://github.com/esamudera/ring.git", branch = "disable_eaed_hash_check" }
 untrusted = "0.7.0"
